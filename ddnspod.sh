@@ -1,5 +1,5 @@
 #!/bin/sh
-#
+# set -ex
 
 # Import ardnspod functions
 . /your_real_path/ardnspod

@@ -113,7 +113,7 @@ arDdnsApi() {
 
     local agent="AnripDdns/6.1.0(wang@rehiy.com)"
 
-    local apiurl="https://dnsapi.cn/${1:?'Info.Version'}"
+    local apiurl="https://api.dnspod.com/${1:?'Info.Version'}"
     local params="login_token=$arToken&format=json&$2"
 
     if type wget >/dev/null 2>&1; then
